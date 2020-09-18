@@ -1,0 +1,17 @@
+{
+    "name": "Avisos",
+    "alias": "avisos",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Avisos\\Providers\\AvisosServiceProvider",
+        "Modules\\Avisos\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        
+    ],
+    "requires": []
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Noticias",
+    "alias": "noticias",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Noticias\\Providers\\NoticiasServiceProvider",
+        "Modules\\Noticias\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        
+    ],
+    "requires": []
+}

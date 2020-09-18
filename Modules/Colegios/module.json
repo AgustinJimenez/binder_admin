@@ -1,0 +1,17 @@
+{
+    "name": "Colegios",
+    "alias": "colegios",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Colegios\\Providers\\ColegiosServiceProvider",
+        "Modules\\Colegios\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        
+    ],
+    "requires": []
+}

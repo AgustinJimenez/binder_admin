@@ -1,0 +1,21 @@
+PRIMERO BORRAR (SI EXISTE) AL ARCHIVO .ENV DEL ROOT DEL PROYECTO, TENER EN CUENTA QUE POR MAS QUE SE INTRODUZCAN LOS DATOS DE LA DB EN LA CONSOLA.
+EL ARTISAN (Posiblemente) SOLO TOMA EN CUENTA LO QUE ESTA ESCRITO EN EL ARCHIVO .env.example
+
+CREAR LA DB QUE SE UTILIZARA.
+
+COPIAR EL SCRITP Y PEGAR EN LA CONSOLA.
+_____________________________LINUX
+php artisan asgard:install && 
+php artisan module:migrate colegios && 
+php artisan module:migrate grados && 
+php artisan module:migrate responsables && 
+php artisan module:migrate avisos && 
+php artisan module:migrate noticias && 
+php artisan module:migrate && 
+php artisan key:generate; 
+
+SEEDERS
+___________________________________________
+php artisan module:seed colegios &&
+php artisan module:seed grados 
+php artisan module:seed noticias

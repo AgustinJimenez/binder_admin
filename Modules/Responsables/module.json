@@ -1,0 +1,17 @@
+{
+    "name": "Responsables",
+    "alias": "responsables",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Responsables\\Providers\\ResponsablesServiceProvider",
+        "Modules\\Responsables\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        
+    ],
+    "requires": []
+}

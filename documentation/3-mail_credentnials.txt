@@ -1,0 +1,4 @@
+MAIL_HOST= a2plcpnl0466.prod.iad2.secureserver.net
+MAIL_PORT= 465
+MAIL_USERNAME= hola@legabe.com
+MAIL_PASSWORD= AppColegios2017

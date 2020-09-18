@@ -1,0 +1,1 @@
+cambiar clave FIREBASE_CLOUD_MESSAGING_CLAVE en .env (fijarse .env.example)
